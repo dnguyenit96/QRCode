@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="@dimen/elevation_card"
+    app:cardCornerRadius="@dimen/corner_radius">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="@dimen/width_img_circle"
+            android:layout_height="@dimen/height_img_circle"
+            android:layout_margin="@dimen/margin_medium"
+            android:elevation="@dimen/elevation_card"
+            app:cardCornerRadius="@dimen/corner_radius_circle"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_baseline_account_circle_24" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/item_cvTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_medium"
+            android:text="Item Code"
+            android:textStyle="bold"
+            android:textSize="@dimen/font_size_title"
+            android:textColor="@color/colorPrimary"
+            android:maxLines="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView"
+            app:layout_constraintTop_toTopOf="parent">
+        </TextView>
+
+        <TextView
+            android:id="@+id/item_cvLine0"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_medium"
+            android:text="Item Name"
+            android:textSize="@dimen/font_size_normal"
+            android:textColor="@color/colorTextInput"
+            android:maxLines="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/item_cvTitle"/>
+
+        <TextView
+            android:id="@+id/item_cvLine1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_medium"
+            android:maxLines="1"
+            android:text="Part no"
+            android:textSize="@dimen/font_size_normal"
+            android:textColor="@color/colorTextInput"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/item_cvLine0" />
+
+        <TextView
+            android:id="@+id/item_cvLine2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_medium"
+            android:maxLines="1"
+            android:text="Stock"
+            android:textSize="@dimen/font_size_normal"
+            android:textColor="@color/colorTextInput"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/item_cvLine1" />
+
+        <TextView
+            android:id="@+id/item_cvLine3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_medium"
+            android:maxLines="1"
+            android:text="Description"
+            android:textSize="@dimen/font_size_normal"
+            android:textColor="@color/colorTextInput"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/item_cvLine2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

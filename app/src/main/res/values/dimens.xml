@@ -1,0 +1,18 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="corner_radius">10dp</dimen>
+    <dimen name="font_size_normal">18sp</dimen>
+    <dimen name="font_size_title">24sp</dimen>
+    <dimen name="width_img_circle">120dp</dimen>
+    <dimen name="height_img_circle">120dp</dimen>
+    <dimen name="corner_radius_circle">60dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="elevation_card">10dp</dimen>
+    <dimen name="font_size_logo">64sp</dimen>
+    <dimen name="padding_small">6dp</dimen>
+</resources>

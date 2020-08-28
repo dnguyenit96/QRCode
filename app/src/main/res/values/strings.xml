@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">QRCode</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_title">ĐĂNG NHẬP</string>
+    <string name="user_name">Tài khoản</string>
+    <string name="pass_word">Mật khẩu</string>
+    <string name="forgot_password">Quên mật khẩu?</string>
+    <string name="forgot_password_title">QUÊN MẬT KHẨU?</string>
+    <string name="password">Mật khẩu</string>
+    <string name="button_login">Đăng nhập</string>
+    <string name="e_mail">Thư điện tử</string>
+    <string name="button_commit">Xác nhận</string>
+    <string name="setting_login">CÀI ĐẶT</string>
+    <string name="link_api">Đường dẫn kết nối</string>
+    <string name="private_key">Khóa kết nối</string>
+    <string name="button_save">Lưu</string>
+</resources>
